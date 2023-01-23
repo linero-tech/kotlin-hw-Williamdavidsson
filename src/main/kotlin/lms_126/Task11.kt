@@ -2,7 +2,7 @@ package lms_126
 
 fun task11(): String {
 
-    return """
+    return  """
         INPUT convert temp
         IF temp [-1] == "C"
         return (float(temp[-1]) - 32) * 5/9
