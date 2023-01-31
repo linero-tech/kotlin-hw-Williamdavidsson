@@ -1,6 +1,7 @@
 package lms_127
 
 fun task1() {
-
-    TODO("Erase this line and write your solution")
+    var country = "Panama"
+    var capital = "Panama"
+    var currency = "USD"
 }
