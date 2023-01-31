@@ -1,8 +1,10 @@
 package lms_127
 
 fun task1() {
-    val country = "Panama"
-    val capital = "Panama"
-    val currency = "USD"
-    return
+    var country = "Panama"
+    var capital = "Panama"
+    var currency = "USD"
+    var result = "$country, $capital, $currency"
+    println(result)
+
 }
