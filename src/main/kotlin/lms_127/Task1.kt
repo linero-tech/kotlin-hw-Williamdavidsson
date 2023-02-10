@@ -1,7 +1,7 @@
 package lms_127
 
 fun task1() {
-    println("country: Panama")
-    println("capital: Panama city")
-    println("currency: USD")
+    print("country = Panama")
+    print("capital = Panama city")
+    print("currency = USD")
 }
