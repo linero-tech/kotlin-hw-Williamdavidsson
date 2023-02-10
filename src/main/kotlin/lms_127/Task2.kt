@@ -4,9 +4,9 @@ import java.time.Month
 
 fun task2() {
 
-    var name = "jane"
-    var country = "Sweden"
-    var month: String = "monthes of the year"
-    var born = "month"
-    val sentence = " Hello $name, you are from $country, and you were born in $month"
+    val name = "jane"
+    val country = "Sweden"
+    val month = "monthes of the year"
+    val born = "month"
+    println(" Hello $name, you are from $country, and you were born in $month")
 }
