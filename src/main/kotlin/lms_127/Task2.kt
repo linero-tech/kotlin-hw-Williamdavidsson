@@ -2,7 +2,7 @@ package lms_127
 
 import java.time.Month
 
-fun task2() {
+fun main () {
 
     val name = "Jane"
     val country = "Sweden"
