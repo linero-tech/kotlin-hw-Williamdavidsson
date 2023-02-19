@@ -8,7 +8,6 @@ fun task3(radius: Double): Double {
 
 }
 fun main() {
-    val answer = task3(radius = 2.0)
-    print(answer)
+    println(task3(radius = 2.0))
 }
 
