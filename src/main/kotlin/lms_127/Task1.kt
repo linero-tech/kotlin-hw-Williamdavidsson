@@ -1,12 +1,13 @@
 package lms_127
 
-fun task1 () {
-    var countryName = "Sweden"
-    var capitalName = "Stokholm"
-    var currency = "SEK"
+fun task1(): String {
+    val countryName = "Sweden"
+    val capitalName = "Stokholm"
+    val currency = "SEK"
     val sentence = "$countryName, $capitalName, $currency"
-    println(sentence)
+    return sentence
 }
 fun main() {
-    task1()
+    val sentence = task1()
+    println(sentence)
 }
