@@ -9,5 +9,9 @@ fun task3(radius: Double): Double {
 }
 fun main() {
     println(task3(radius = 2.0))
+    println(task3(radius = 4.0))
+    println(task3(radius = 6.0))
+    println(task3(radius = 20.9))
+
 }
 
