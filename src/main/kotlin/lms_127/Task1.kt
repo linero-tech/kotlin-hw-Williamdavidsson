@@ -8,6 +8,5 @@ fun task1(): String {
     return sentence
 }
 fun main() {
-    val sentence = task1()
-    println(sentence)
+    println(task1())
 }
