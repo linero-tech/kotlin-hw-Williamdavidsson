@@ -1,10 +1,10 @@
 package lms_127
 
 fun task4(base: Double, height: Double): Double {
-    val result = 0.5 * base * height
+    val result = 0.5 * height * base
     return result
 }
 fun main() {
-    val result = task4(base = 5.0, height = 10.0)
-    println(result)
+    println(task4(base = 5.0, height = 10.0))
+    println(task4(base = 10.0, height = 20.0))
 }
