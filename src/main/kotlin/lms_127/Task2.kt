@@ -5,6 +5,6 @@ import java.time.Month
 fun main () {
     val name = "William"
     val country = "Sweden"
-    val month: String = "June"
+    val month = Month.JUNE
     println("Hello $name, you are from $country, and you were born in $month")
 }
