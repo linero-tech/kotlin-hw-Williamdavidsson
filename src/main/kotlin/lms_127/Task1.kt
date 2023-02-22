@@ -1,6 +1,6 @@
 package lms_127
 
-fun task1(): String {
+fun task1() : String {
     val countryName = "Sweden"
     val capitalName = "Stokholm"
     val currency = "SEK"
