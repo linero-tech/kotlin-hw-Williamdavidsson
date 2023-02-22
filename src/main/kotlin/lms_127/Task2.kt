@@ -6,5 +6,5 @@ fun task2() {
     println("Hello $name, you are from $country and you were born in $month")
 }
 fun main() {
-    task2()
+    print(task2())
 }
