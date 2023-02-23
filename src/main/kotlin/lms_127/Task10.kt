@@ -6,7 +6,7 @@ fun task10_1(assessments: String): Int {
 
 fun task10_2(assessments: String): Char {
 
-    return assessments[4]
+    return assessments[3]
 }
 
 fun task10_3(assessments: String): Char {
