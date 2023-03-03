@@ -15,5 +15,5 @@ fun main(){
     val a = 1
     val b = 5
     val result = task1(a, b)
-    print("result is $result")
+    println("result is $result")
 }
