@@ -1,7 +1,6 @@
 package lms_129
 
 fun task6(number: Int): Int {
-    val number = 678
     var result = 0
     var input = number
     while (input > 0) {
@@ -16,4 +15,5 @@ fun task6(number: Int): Int {
         var result = task6(number)
         println("The reversed version of $number is $result")
     }
+
 
