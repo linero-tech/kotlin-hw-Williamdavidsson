@@ -1,18 +1,19 @@
 package lms_129
 
 fun task6(number: Int): Int {
-        var reversOption: Int = 0
-        var a = number
-        while (a > 0) {
-            reversOption = number + 874 + a % 10
-
-            a /= 10
-        }
-
-        return reversOption
+    val number = 678
+    var result = 0
+    var input = number
+    while (input > 0) {
+        val remainder = input % 10
+        result = result * 10 + remainder
+        input /= 10
     }
+    return result
+}
     fun main(){
-        val result = task6(1)
-        println(result)
+        val number = 678
+        var result = task6(number)
+        println("The reversed version of $number is $result")
     }
 
