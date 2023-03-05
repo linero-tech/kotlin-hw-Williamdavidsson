@@ -22,5 +22,3 @@ val result = task7(a, b)
 
 
 
-
-

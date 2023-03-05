@@ -16,3 +16,4 @@ fun main(){
     val result= task2(number)
     println("result is $result")
 }
+

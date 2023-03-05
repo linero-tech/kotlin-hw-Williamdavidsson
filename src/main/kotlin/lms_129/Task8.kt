@@ -14,3 +14,4 @@ fun task8(number: Int): Int {
         val result = task8(number)
         println("the sum of the digits in $number is $result")
     }
+

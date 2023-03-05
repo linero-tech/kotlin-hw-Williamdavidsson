@@ -24,3 +24,4 @@ fun task9(temperature: String): String {
         val result2 = task9(temperature2)
         println("Temperature $temperature2 is equivalent to $result2")
     }
+

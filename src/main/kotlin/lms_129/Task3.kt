@@ -12,3 +12,4 @@ fun main(){
 
     println(task3(number = 5))
 }
+
